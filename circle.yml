@@ -4,12 +4,11 @@ machine:
 dependencies:
   pre:
     - curl -O http://downloads.jboss.org/infinispan/7.1.1.Final/infinispan-server-7.1.1.Final-bin.zip
-    - unzip infinispan-server-7.1.1.Final-bin.zip
-    - mv infinispan-server-7.1.1.Final /opt/infinispan-server
+    - unzip infinispan-server-7.1.1.Final-bin.zip -d /opt/
   override:
     - docker build -t infinispan .
 test:
   override:
     - docker run --name infinispan_container -p 9990:9990 -dt infinispan
-    - /opt/infinispan-server/bin/ispn-cli.sh --user=test --password=test
+    - /opt/infinispan-server-7.1.1.Final/bin/ispn-cli.sh --user=test --password=test
     - connect localhost
