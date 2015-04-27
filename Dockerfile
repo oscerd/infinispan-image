@@ -1,6 +1,10 @@
-FROM oscerd/java
+# Infinispan Server 7.1.1.Final Dockerfile
+#
+# https://github.com/oscerd/docker-infinispan
 
-MAINTAINER ancosen1985@yahoo.com
+# Pull base image.
+FROM oscerd/java:latest
+MAINTAINER Andrea Cosentino <ancosen1985@yahoo.com>
 
 ENV ISPN_VERSION 7.1.1.Final
 
