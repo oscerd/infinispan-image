@@ -9,5 +9,5 @@ dependencies:
     - docker build -t infinispan .
 test:
   override:
-    - docker run --name infinispan_container -p 9990:9990 -dt infinispan
-    - curl -v http://localhost:9990
+    - docker run --name infinispan_container -p 8080:8080 -p 9990:9990 -dt infinispan
+    - curl -v http://localhost:8080
