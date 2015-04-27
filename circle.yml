@@ -10,4 +10,4 @@ dependencies:
 test:
   override:
     - docker run --name infinispan_container -p 9990:9990 -dt infinispan
-    - telnet localhost 9990
+    - curl -v http://localhost:9990
