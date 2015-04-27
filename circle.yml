@@ -11,4 +11,4 @@ test:
   override:
     - docker run --name infinispan_container -p 9990:9990 -dt infinispan
     - infinispan-server-7.1.1.Final/bin/ispn-cli.sh --user=test --password=test
-    - connect localhost
+    - telnet localhost 9990
