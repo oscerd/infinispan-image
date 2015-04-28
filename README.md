@@ -1,9 +1,5 @@
 Ubuntu based container with Infinispan
 
-# docker-infinispan
-
-Infinispan docker container
-
 ## Pull Images
 
 Pull the image.
