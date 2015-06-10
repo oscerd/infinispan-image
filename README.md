@@ -1,4 +1,4 @@
-Ubuntu based container with Infinispan
+Ubuntu based container with Infinispan 7.2.0.Final
 
 ## Pull Images
 
