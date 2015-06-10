@@ -6,7 +6,7 @@
 FROM oscerd/java:latest
 MAINTAINER Andrea Cosentino <ancosen1985@yahoo.com>
 
-ENV ISPN_VERSION 7.1.1.Final
+ENV ISPN_VERSION 7.2.0.Final
 ENV AUTH false
 ENV AUTH_USERNAME test
 ENV AUTH_PASSWORD test
