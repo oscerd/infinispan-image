@@ -3,8 +3,8 @@ machine:
     - docker
 dependencies:
   pre:
-    - curl -O http://downloads.jboss.org/infinispan/7.1.1.Final/infinispan-server-7.2.0.Final-bin.zip
-    - unzip infinispan-server-7.2.0.Final-bin.zip
+    - curl -O http://downloads.jboss.org/infinispan/7.2.2.Final/infinispan-server-7.2.2.Final-bin.zip
+    - unzip infinispan-server-7.2.2.Final-bin.zip
   override:
     - docker build -t infinispan .
 test:
