@@ -1,4 +1,4 @@
-# Infinispan Server 7.2.2.Final Dockerfile
+# Infinispan Server 7.2.3.Final Dockerfile
 #
 # https://github.com/oscerd/docker-infinispan
 
