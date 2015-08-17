@@ -1,4 +1,4 @@
-# Infinispan Server 7.2.3.Final Dockerfile
+# Infinispan Server 7.2.4.Final Dockerfile
 #
 # https://github.com/oscerd/docker-infinispan
 
@@ -6,7 +6,7 @@
 FROM oscerd/java:latest
 MAINTAINER Andrea Cosentino <ancosen1985@yahoo.com>
 
-ENV ISPN_VERSION 7.2.3.Final
+ENV ISPN_VERSION 7.2.4.Final
 ENV AUTH false
 ENV AUTH_USERNAME test
 ENV AUTH_PASSWORD test
