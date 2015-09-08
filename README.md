@@ -1,11 +1,19 @@
-Ubuntu based container with Infinispan 7.2.4.Final
+Ubuntu based container with Infinispan 7.x and Infinispan 8.x
 
 ## Pull Images
 
 Pull the image.
 
+For Infinispan 8.x
+
 ```
 docker pull oscerd/infinispan
+```
+
+For Infinispan 7.x
+
+```
+docker pull oscerd/infinispan:infinispan7
 ```
 
 ## Run containers

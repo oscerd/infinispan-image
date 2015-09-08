@@ -2,9 +2,6 @@ machine:
   services:
     - docker
 dependencies:
-  pre:
-    - curl -O http://downloads.jboss.org/infinispan/7.2.4.Final/infinispan-server-7.2.4.Final-bin.zip
-    - unzip infinispan-server-7.2.4.Final-bin.zip
   override:
     - docker build -t infinispan7 infinispan-7/
     - docker build -t infinispan .
