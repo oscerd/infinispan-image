@@ -3,10 +3,10 @@
 # https://github.com/oscerd/docker-infinispan
 
 # Pull base image.
-FROM oscerd/java:latest
+FROM oscerd/java:oraclejava8
 MAINTAINER Andrea Cosentino <ancosen1985@yahoo.com>
 
-ENV ISPN_VERSION 7.2.4.Final
+ENV ISPN_VERSION 8.0.0.Final
 ENV AUTH false
 ENV AUTH_USERNAME test
 ENV AUTH_PASSWORD test

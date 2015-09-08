@@ -6,8 +6,12 @@ dependencies:
     - curl -O http://downloads.jboss.org/infinispan/7.2.4.Final/infinispan-server-7.2.4.Final-bin.zip
     - unzip infinispan-server-7.2.4.Final-bin.zip
   override:
+    - docker build -t infinispan7 infinispan-7/
     - docker build -t infinispan .
 test:
   override:
-    - docker run --name infinispan_container -p 8080:8080 -p 9990:9990 -dt infinispan; sleep 20
+    - docker run --name infinispan_container -p 8080:8080 -p 9990:9990 -dt infinispan7; sleep 20
     - curl -v http://localhost:8080
+    - docker run --name infinispan_container8 -p 8080:8081 -p 9990:9991 -dt infinispan; sleep 20
+    - curl -v http://localhost:8081
+
