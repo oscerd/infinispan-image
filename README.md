@@ -7,9 +7,8 @@ Pull the image.
 For Infinispan 8.0.1.Final
 
 ```
-docker pull oscerd/infinispan:infinispan-8.0.1.Final
+docker pull oscerd/infinispan
 ```
-
 
 For Infinispan 8.0.0.Final
 
