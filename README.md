@@ -16,6 +16,12 @@ For Infinispan 8.0.0.Final
 docker pull oscerd/infinispan:infinispan-8.0.0.Final
 ```
 
+For Infinispan 7.2.5.Final
+
+```
+docker pull oscerd/infinispan:infinispan-7.2.5.Final
+```
+
 For Infinispan 7.2.4.Final
 
 ```
