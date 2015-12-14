@@ -1,4 +1,4 @@
-# Infinispan Server 8.0.1.Final Dockerfile
+# Infinispan Server 8.1.0.Final Dockerfile
 #
 # https://github.com/oscerd/docker-infinispan
 
@@ -6,7 +6,7 @@
 FROM oscerd/java:oraclejava8
 MAINTAINER Andrea Cosentino <ancosen1985@yahoo.com>
 
-ENV ISPN_VERSION 8.0.2.Final
+ENV ISPN_VERSION 8.1.0.Final
 ENV AUTH false
 ENV AUTH_USERNAME test
 ENV AUTH_PASSWORD test

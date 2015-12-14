@@ -1,4 +1,4 @@
-# Infinispan Server 8.0.1.Final Dockerfile
+# Infinispan Server 8.0.2.Final Dockerfile
 #
 # https://github.com/oscerd/docker-infinispan
 
