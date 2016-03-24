@@ -6,7 +6,7 @@
 FROM oscerd/java:oraclejava8
 MAINTAINER Andrea Cosentino <ancosen1985@yahoo.com>
 
-ENV ISPN_VERSION 8.2.0.Final
+ENV ISPN_VERSION 8.1.0.Final
 ENV AUTH false
 ENV AUTH_USERNAME test
 ENV AUTH_PASSWORD test
