@@ -4,10 +4,16 @@ Ubuntu based container with Infinispan 7.x and Infinispan 8.x
 
 Pull the image.
 
-For Infinispan 8.2.1.Final
+For Infinispan 8.2.2.Final
 
 ```
 docker pull oscerd/infinispan
+```
+
+For Infinispan 8.2.1.Final
+
+```
+docker pull oscerd/infinispan:infinispan-8.2.1.Final
 ```
 
 For Infinispan 8.2.0.Final
