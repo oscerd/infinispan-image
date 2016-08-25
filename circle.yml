@@ -13,6 +13,7 @@ dependencies:
     - docker build -t infinispan821 infinispan-8.2.1.Final/
     - docker build -t infinispan822 infinispan-8.2.2.Final/
     - docker build -t infinispan823 infinispan-8.2.3.Final/
+    - docker build -t infinispan824 .
 test:
   override:
     - docker run --name infinispan_container724 -p 8080:8080 -p 9990:9990 -dt infinispan724; sleep 20
@@ -34,6 +35,8 @@ test:
     - docker run --name infinispan_container822 -p 8080:8080 -p 9990:9990 -dt infinispan822; sleep 20
     - curl -v http://localhost:8080
     - docker run --name infinispan_container823 -p 8080:8080 -p 9990:9990 -dt infinispan823; sleep 20
+    - curl -v http://localhost:8080
+    - docker run --name infinispan_container824 -p 8080:8080 -p 9990:9990 -dt infinispan824; sleep 20
     - curl -v http://localhost:8080
 
 
