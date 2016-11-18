@@ -7,7 +7,7 @@ Pull the image.
 For Infinispan 8.2.4.Final
 
 ```
-docker pull oscerd/infinispan
+docker pull oscerd/infinispan:infinispan-8.2.4.Final
 ```
 
 For Infinispan 8.2.3.Final
